@@ -53,11 +53,11 @@
                         <a class="page-scroll" href="#about">Mi is ez?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Tároló</a>
+                        <a class="page-scroll" href="#services">Leírás</a>
                     </li>
-                    <!--<li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Tároló</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Közösség</a>
                     </li>
@@ -89,49 +89,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Szoftverforrás hozzáadása</h2>
+                    <h2 class="section-heading">Telepítési leírások</h2>
                     <hr class="light">
-                    <p class="text-faded">Adja hozzá Debian alapú (Debian, Linux Mint, Ubuntu) rendszeréhez a következő tárolót:<br/> 
-                                            deb http://ooo.itc.hu/abevjava-next/ abevjava main #ABEVJAVA</p>
-                    <p>Például a következő módon, Linux Mint esetén: gksudo xed  /etc/apt/sources.list.d/abevjava.list<br/>
-                    vagy<br/>
-                    Ubuntu esetén: gksudo xed  /etc/apt/sources.list.d/abevjava.list<br/>
-                    <h2 class="section-heading">Aláírókulcsok hozzáadása</h2>
-                    <hr class="light">
-                    <p class="text-faded">gpg --keyserver keys.niif.hu --recv-keys 01937606<br/>
-                                          gpg -a --export 01937606 | sudo apt-key add -<br/>
-                                          A tároló hitelességét érdemes ellenőrizni, így ajánlatos hozzáadni a tároló kulcsát rendszerünkhöz.</p>
-                    <!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+                    <p class="text-faded"><a href="http://linuxmint.hu/sugo/i-modszer-abevjava-altalanos-nyomtatvanykitolto-telepitese-kami-tarolojanak-hozzaadasaval" class="page-scroll btn btn-default btn-xl sr-button">Telepítés kezdőknek</a></p>
+                    <p class="text-faded"><a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Telepítés haladóknak</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!--
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Szoftverforrás hozzáadása</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-xs-10 col-md-offset-0 text-left">
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <h3>Szoftverforrás hozzáadása</h3>
+                        <p class="text-muted">Adja hozzá Debian alapú (Debian, Linux Mint, Ubuntu) rendszeréhez a következő tárolót:<br/> 
+                                            deb http://ooo.itc.hu/abevjava-next/ abevjava main #ABEVJAVA</p>
+                    <p class="text-muted">Például a következő módon, Linux Mint esetén: „gksudo xed /etc/apt/sources.list.d/abevjava.list”<br/>
+                    vagy<br/>
+                    Ubuntu esetén: „gksudo gedit /etc/apt/sources.list.d/abevjava.list”</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-md-offset-0 text-left">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <h3>Aláírókulcsok hozzáadása</h3>
+                        <p class="text-muted">gpg --keyserver keys.niif.hu --recv-keys 01937606<br/>
+                                          gpg -a --export 01937606 | sudo apt-key add -<br/>
+                                          A tároló hitelességét érdemes ellenőrizni, így ajánlatos hozzáadni a tároló kulcsát rendszerünkhöz.</p>
                     </div>
                 </div>
+<!--
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
@@ -146,10 +145,11 @@
                         <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
+-->
             </div>
         </div>
     </section>
-
+<!--
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
@@ -260,9 +260,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Csatlakozz a közösséghez!</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading">Csatlakozzon a közösséghez!</h2>
                     <p>Ha használja a tárolót, csatlakozzon a <a href="https://www.facebook.com/abevjava">AbevJava Facebook csoportjához</a>!</p>
+                    <hr class="primary">
+                    <h2 class="section-heading">Támogatás</h1>
+                    <p>Amennyiben elégetett munkámmal, kérem fontolja meg a következő támogatási lehetőséget:</p>
+                    <p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	                    <input type="hidden" name="cmd" value="_s-xclick" />
+	                    <input type="hidden" name="hosted_button_id" value="L8QG8V94SR4VS" />
+	                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+	                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                    </p>
                 </div>
                 <!--
                 <div class="col-lg-4 col-lg-offset-2 text-center">
